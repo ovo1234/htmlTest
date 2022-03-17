@@ -1,0 +1,20 @@
+h1{
+    color: red;
+}
+
+p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input[type=number]{
+    display: block;
+}
+
+#inputRange{
+    display: inline;
+}
+
+#divWrap{
+    text-align: center;
+}
