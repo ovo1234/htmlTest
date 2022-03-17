@@ -7,14 +7,28 @@ p{
     font-size: 25px;
 }
 
-input[type=number]{
+/* input[type=number]{
     display: block;
+} */
+
+#inputBalance{
+    width: 200px;
 }
 
 #inputRange{
     display: inline;
+    width: 140px;
 }
 
 #divWrap{
     text-align: center;
+}
+
+#selRangeUnit{
+    width: 76px;
+    height: 22px;
+}
+
+.commonMargin{
+    margin-bottom: 10px;
 }

@@ -1,27 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title> 고급웹프로그래밍 </title>
-        <link rel="stylesheet" href="./220317.css">
-        <script src="./220317.js"></script>
-    </head>    
-    <body>
-        <h1> 1강 실습(수정버전-라이브프리뷰)</h1>
-        <p> VisualStudio Code</p>
-        <p>유용한 플러그인 설치</p>
-        <ul>
-            <li>Prettier</li>
-            <li>Live Previewer</li>
-        </ul>
 
-        <h2> 복리계산기 </h2>
-        <div id="divWrap">
+<head>
+    <title>고급웹프로그래밍</title>
+    <link rel="stylesheet" href="./220317.css" />
+    <script src="./220317.js"></script>
+</head>
+
+<body>
+    <h1>1강 실습(수정버전-라이브프리뷰)</h1>
+    <p>VisualStudio Code</p>
+    <p>유용한 플러그인 설치</p>
+    <ul>
+        <li>Prettier</li>
+        <li>Live Previewer</li>
+    </ul>
+
+    <h2>복리계산기</h2>
+    <div id="divWrap">
         <div class="commonMargin">
-            <input id="inputBalance" type="number" placeholder="원금입력">
+            <input id="inputBalance" type="number" placeholder="원금입력" />
         </div>
-            <input id="inputRange" type="number" placeholder="기간입력">
-        
-        <select id = "selectRangeUnit">
+        <input id="inputRange" class="commonMargin" type="number" placeholder="기간입력" />
+
+        <select id="selectRangeUnit" class="commonMargin">
             <option>일</option>
             <option>주</option>
             <option>월</option>
@@ -29,8 +31,10 @@
             <option>연도</option>
         </select>
         <div>
-        <button id="calc"> 계산하기 </button>
-        <!--<input type="button" value = "계산하기"></input>-->
+            <button id="calc">계산하기</button>
         </div>
-    </body>
+    </div>
+    <!--<input type="button" value = "계산하기"></input>-->
+</body>
+
 </html>
