@@ -1,0 +1,97 @@
+turtle -> 선, 도형 등을 그리는  gui 프로그램 모듈
+import turtle
+trutle.showtrurle() # 터틀 시작
+turtle.write("Welcome to Python") # 글씨 써줌
+
+turtle.forward(100) # 100만큼 앞으로 가줌
+turtle.right(90) #90도 만큼 오른쪽으로 돈다. 이때 forward를 써주지 않으면 걍 회전만 함.
+turtle.color("red") # 빨간색 선이 나옴.
+turtle.done() # 이 줄이 없으면 바로 꺼져버림.
+
+turtle.goto(0,50) #좌표로 가버림.
+turtle.penup()
+turtle.pendown() # pen()함수는 좌표로 갈 때 선을 그리지 못하게 하기위해 하는 함수
+
+turtle.circle(50) #원 그릴때 쓰는 함수
+
+----------------------------------------------------------------------------------------------------------------
+eval() 함수는 매개변수로 받은 식을 문자열로 받아 실행하는 함수임.
+
+연산자
++,-,*,/,//,**,%
+
+max(1,2,3) # 숫자들 중 가장 큰 수를 출력
+min()
+round(3.51) # 반올림 함수
+abs(-3) # 절대값
+pow(2,3) # 2 ** 3 2의 3제곱의 값
+
+이런 수학적함수들이 많다 -> 시험때 나올 수 있으니 확인 한번
+
+boolean
+
+< / <= / > / >= / == / !=
+
+if 조건식 :
+	참인 경우 발생할 코드
+elif 조건식 :
+	코드
+else : 
+	코드
+
+=> 조건식에 쓸 수 있는
+and , or ,  not
+
+if x > 0:
+	y = 1
+else : 
+	y = -1
+=>
+y = 1 if x>0 else -1
+
+반복문
+conut = 0 
+while count < 100:
+	print("python")
+	count += 1
+
+for i in range(1,10) # 무조건 마지막 숫자에서 -1한 값까지 출력됨
+
+import random
+num = random.randint(1,100) # 정수 랜덤값 출력
+
+=> 반복문을 쓸 때 break , continue 문을 쓴다
+
+함수문
+
+def sum(i1, i2):
+	result = 0
+	for i in range(i1, i2+1) :
+		result += i
+	return result
+def main():
+	print(sum(1,10)
+main() # main 함수 출력
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
