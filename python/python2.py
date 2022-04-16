@@ -11,26 +11,26 @@
 
 # turtle 공부
 
-import turtle as tu
+# import turtle as tu
 
-x1 , y1 = eval(input("x1 과 y1 포인트 : "))
-x2 , y2 = eval(input("x2 과 y2 포인트 : "))
+# x1 , y1 = eval(input("x1 과 y1 포인트 : "))
+# x2 , y2 = eval(input("x2 과 y2 포인트 : "))
 
-distance = ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
+# distance = ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
 
-tu.penup()
-tu.goto(x1, y1) #Move to (x1, y1)
-tu.pendown()
-tu.write("Point 1")
+# tu.penup()
+# tu.goto(x1, y1) #Move to (x1, y1)
+# tu.pendown()
+# tu.write("Point 1")
 
-tu.goto(x2, y2)
-tu.write("Point 2")
+# tu.goto(x2, y2)
+# tu.write("Point 2")
 
-tu.penup()
-tu.goto((x1 + x2 ) / 2 , (y1 + y2) / 2)
-tu.write(distance)
+# tu.penup()
+# tu.goto((x1 + x2 ) / 2 , (y1 + y2) / 2)
+# tu.write(distance)
 
-tu.done()
+# tu.done()
 
 
 # import turtle
@@ -51,3 +51,17 @@ tu.done()
 # turtle.goto((x1 + x2) / 2, (y1 + y2) / 2) 
 # turtle.write(distance)
 # turtle.done()
+
+import time
+
+currentTime = time.time()
+
+totalSeconds = int(currentTime)
+
+currentSecond = totalSeconds % 60
+totalMinutes = totalSeconds // 60
+currentMinute = totalMinutes % 60
+totalHours = totalMinutes // 60
+currnetHour = totalHours % 24
+
+print("현재 시간은 ", currnetHour, " : ", currentMinute, " : ",currentSecond)
