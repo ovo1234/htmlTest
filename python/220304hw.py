@@ -32,3 +32,5 @@ turtle.right(144)
 turtle.forward(100)
 
 turtle.done()
+
+# 정리
